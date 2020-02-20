@@ -1,6 +1,7 @@
 # This class will handle tweet fetching by using the twitter api
 import json
 from twitter_scraper import get_tweets
+from twitter_scraper import Profile
 
 
 class TwitterServices:
@@ -32,11 +33,12 @@ class TwitterServices:
             else:
                 return False
 
-        return filter(filter_tweets, tweets)
+        return list(filter(filter_tweets, tweets))
 
     def fetch_latest_tweets_from_account(self, account_name, number_of_pages, last_fetched_tweet_id):
         tweets = get_tweets(account_name, pages=number_of_pages)
         return self.filter_tweets_since_id(tweets, last_fetched_tweet_id)
 
-    # @staticmethod
-    # def fetch_account_info(self, account_name):
+    def fetch_account_info(self, account_name):
+        return Profile(account_name)
+
