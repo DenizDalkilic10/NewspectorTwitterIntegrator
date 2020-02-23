@@ -2,18 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aad1329a-b6df-4954-8923-faec658c440d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Resources/UserTweetIDMap.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/UserWordFilterMap.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/ModelController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ModelController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/ServiceController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ServiceController.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/UserTweetMap.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Tweet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Tweet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/TwitterAccount.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/TwitterAccount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/NewsSources.json" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/AccountNames.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/UserTweetIDMap.json" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/UserTweetIDMap.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/FirestoreServices.py" beforeDir="false" afterPath="$PROJECT_DIR$/Services/FirestoreServices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/TwitterServices.py" beforeDir="false" afterPath="$PROJECT_DIR$/Services/TwitterServices.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,7 +63,7 @@
       <recent name="C:\Users\user\PycharmProjects\NewspectorNewsFetcher\Controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.FirestoreServices">
+  <component name="RunManager" selected="Python.ServiceController">
     <configuration name="FirestoreServices" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NewspectorTwitterIntegrator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,6 +130,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ServiceController" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NewspectorTwitterIntegrator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Controllers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Controllers/ServiceController.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="TwitterServices" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NewspectorTwitterIntegrator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,8 +176,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.FirestoreServices" />
+        <item itemvalue="Python.ServiceController" />
         <item itemvalue="Python.Main" />
+        <item itemvalue="Python.FirestoreServices" />
         <item itemvalue="Python.TwitterServices" />
         <item itemvalue="Python.HelloWorld" />
       </list>
@@ -176,7 +216,7 @@
       <workItem from="1582219318259" duration="4215000" />
       <workItem from="1582281763829" duration="11315000" />
       <workItem from="1582378210043" duration="47000" />
-      <workItem from="1582449036224" duration="4053000" />
+      <workItem from="1582449036224" duration="15095000" />
     </task>
     <servers />
   </component>
@@ -192,38 +232,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="414" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1581779554880" />
-    <state width="1323" height="97" key="GridCell.Tab.0.bottom" timestamp="1582452967850">
+    <state width="1323" height="422" key="GridCell.Tab.0.bottom" timestamp="1582464810675">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="97" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582452967850" />
-    <state width="1323" height="97" key="GridCell.Tab.0.center" timestamp="1582452967850">
+    <state width="1323" height="422" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582464810675" />
+    <state width="1323" height="422" key="GridCell.Tab.0.center" timestamp="1582464810675">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="97" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582452967850" />
-    <state width="1323" height="97" key="GridCell.Tab.0.left" timestamp="1582452967850">
+    <state width="1323" height="422" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582464810675" />
+    <state width="1323" height="422" key="GridCell.Tab.0.left" timestamp="1582464810675">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="97" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582452967850" />
-    <state width="1323" height="97" key="GridCell.Tab.0.right" timestamp="1582452967850">
+    <state width="1323" height="422" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582464810675" />
+    <state width="1323" height="422" key="GridCell.Tab.0.right" timestamp="1582464810675">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="97" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582452967850" />
-    <state width="1323" height="234" key="GridCell.Tab.1.bottom" timestamp="1582372501447">
+    <state width="1323" height="422" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582464810675" />
+    <state width="1323" height="422" key="GridCell.Tab.1.bottom" timestamp="1582464810675">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="234" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582372501447" />
-    <state width="1323" height="234" key="GridCell.Tab.1.center" timestamp="1582372501447">
+    <state width="1323" height="422" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582464810675" />
+    <state width="1323" height="422" key="GridCell.Tab.1.center" timestamp="1582464810675">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="234" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1582372501447" />
-    <state width="1323" height="234" key="GridCell.Tab.1.left" timestamp="1582372501447">
+    <state width="1323" height="422" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1582464810675" />
+    <state width="1323" height="422" key="GridCell.Tab.1.left" timestamp="1582464810675">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="234" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1582372501447" />
-    <state width="1323" height="234" key="GridCell.Tab.1.right" timestamp="1582372501447">
+    <state width="1323" height="422" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1582464810675" />
+    <state width="1323" height="422" key="GridCell.Tab.1.right" timestamp="1582464810675">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="234" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1582372501447" />
+    <state width="1323" height="422" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1582464810675" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1582144040633">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -253,7 +293,8 @@
     <SUITE FILE_PATH="coverage/NewspectorNewsFetcher$TwitterServices.coverage" NAME="TwitterServices Coverage Results" MODIFIED="1582138175220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Services" />
     <SUITE FILE_PATH="coverage/NewspectorTwitterIntegrator$FirestoreServices.coverage" NAME="FirestoreServices Coverage Results" MODIFIED="1582452967839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Services" />
     <SUITE FILE_PATH="coverage/NewspectorNewsFetcher$HelloWorld.coverage" NAME="HelloWorld Coverage Results" MODIFIED="1582137698323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NewspectorTwitterIntegrator$ServiceController.coverage" NAME="ServiceController Coverage Results" MODIFIED="1582464305850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Controllers" />
     <SUITE FILE_PATH="coverage/NewspectorNewsFetcher$Main.coverage" NAME="Main Coverage Results" MODIFIED="1582151385281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NewspectorTwitterIntegrator$Main.coverage" NAME="Main Coverage Results" MODIFIED="1582452010253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NewspectorTwitterIntegrator$Main.coverage" NAME="Main Coverage Results" MODIFIED="1582460339718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

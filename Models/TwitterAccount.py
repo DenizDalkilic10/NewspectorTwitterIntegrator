@@ -3,7 +3,7 @@ class TwitterAccount(object):
 
     # instance attributes
     def __init__(self, username, name, followers_count, following_count, likes_count, tweets_count, website,
-                 profile_photo, birthday, tweet_list):
+                 profile_photo, birthday, bio, tweet_list=list):
         self.username = username
         self.name = name
         self.followers_count = followers_count
@@ -13,10 +13,11 @@ class TwitterAccount(object):
         self.website = website
         self.profile_photo = profile_photo
         self.birthday = birthday
+        self.bio = bio
         self.tweet_list = tweet_list
 
     def add_tweets(self, tweets):
-        self.tweet_list += tweets
+        self.tweet_list.append(tweets)
 
     def set_news(self, tweets):
         self.tweet_list = tweets

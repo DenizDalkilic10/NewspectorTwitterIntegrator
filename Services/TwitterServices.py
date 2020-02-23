@@ -1,4 +1,5 @@
 # This class will handle tweet fetching by using the twitter api
+
 import json
 import os
 from twitter_scraper import get_tweets

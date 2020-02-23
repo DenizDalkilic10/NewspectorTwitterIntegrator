@@ -1,7 +1,7 @@
-# This class will call service manager object and perform operations in every xxx minute until shutdown
+
 from Services import TwitterServices
 
-accounts_resource = "Resources/NewsSources.json"
+accounts_resource = "Resources/AccountNames.json"
 user_tweet_map_resource = "Resources/UserTweetIDMap.json"
 
 twitter_service = TwitterServices.TwitterServices(accounts_resource, user_tweet_map_resource)
