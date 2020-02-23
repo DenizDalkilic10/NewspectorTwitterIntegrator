@@ -2,7 +2,7 @@
 from Services import TwitterServices
 
 accounts_resource = "Resources/NewsSources.json"
-user_tweet_map_resource = "Resources/UserTweetMap.json"
+user_tweet_map_resource = "Resources/UserTweetIDMap.json"
 
 twitter_service = TwitterServices.TwitterServices(accounts_resource, user_tweet_map_resource)
 
