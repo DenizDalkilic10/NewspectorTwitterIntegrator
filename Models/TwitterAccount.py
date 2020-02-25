@@ -19,5 +19,8 @@ class TwitterAccount(object):
     def add_tweets(self, tweets):
         self.tweet_list.append(tweets)
 
-    def set_news(self, tweets):
+    def set_tweets(self, tweets):
         self.tweet_list = tweets
+
+    def get_tweets(self):
+        return self.tweet_list
