@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aad1329a-b6df-4954-8923-faec658c440d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ServerApplication.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/ModelController.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ModelController.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/ServiceController.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/TwitterAccount.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/TwitterAccount.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/UserTweetIDMap.json" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/UserTweetIDMap.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/UserWordFilterMap.json" beforeDir="false" />
-    </list>
+    <list default="true" id="aad1329a-b6df-4954-8923-faec658c440d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -218,7 +209,7 @@
       <workItem from="1582449036224" duration="15095000" />
       <workItem from="1582485159044" duration="913000" />
       <workItem from="1582551232415" duration="4215000" />
-      <workItem from="1582640459263" duration="12475000" />
+      <workItem from="1582640459263" duration="12928000" />
     </task>
     <servers />
   </component>
@@ -234,22 +225,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="414" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1581779554880" />
-    <state width="1323" height="389" key="GridCell.Tab.0.bottom" timestamp="1582652011258">
+    <state width="1323" height="162" key="GridCell.Tab.0.bottom" timestamp="1582653463365">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="389" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582652011258" />
-    <state width="1323" height="389" key="GridCell.Tab.0.center" timestamp="1582652011258">
+    <state width="1323" height="162" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582653463365" />
+    <state width="1323" height="162" key="GridCell.Tab.0.center" timestamp="1582653463365">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="389" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582652011258" />
-    <state width="1323" height="389" key="GridCell.Tab.0.left" timestamp="1582652011257">
+    <state width="1323" height="162" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582653463365" />
+    <state width="1323" height="162" key="GridCell.Tab.0.left" timestamp="1582653463365">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="389" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582652011257" />
-    <state width="1323" height="389" key="GridCell.Tab.0.right" timestamp="1582652011258">
+    <state width="1323" height="162" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582653463365" />
+    <state width="1323" height="162" key="GridCell.Tab.0.right" timestamp="1582653463365">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="389" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582652011258" />
+    <state width="1323" height="162" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582653463365" />
     <state width="1323" height="392" key="GridCell.Tab.1.bottom" timestamp="1582651037744">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
