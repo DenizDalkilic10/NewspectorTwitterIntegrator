@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aad1329a-b6df-4954-8923-faec658c440d" name="Default Changelist" comment="" />
+    <list default="true" id="aad1329a-b6df-4954-8923-faec658c440d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Tweet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Tweet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/TwitterAccount.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/TwitterAccount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/UserTweetIDMap.json" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/UserTweetIDMap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/service-account-file.json" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/service-account-file.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerApplication.py" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApplication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/FirestoreServices.py" beforeDir="false" afterPath="$PROJECT_DIR$/Services/FirestoreServices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/TwitterServices.py" beforeDir="false" afterPath="$PROJECT_DIR$/Services/TwitterServices.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -209,7 +219,8 @@
       <workItem from="1582449036224" duration="15095000" />
       <workItem from="1582485159044" duration="913000" />
       <workItem from="1582551232415" duration="4215000" />
-      <workItem from="1582640459263" duration="12928000" />
+      <workItem from="1582640459263" duration="13623000" />
+      <workItem from="1583319007957" duration="15943000" />
     </task>
     <servers />
   </component>
@@ -225,38 +236,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="414" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1581779554880" />
-    <state width="1323" height="162" key="GridCell.Tab.0.bottom" timestamp="1582653463365">
+    <state width="1323" height="395" key="GridCell.Tab.0.bottom" timestamp="1583340591494">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="162" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582653463365" />
-    <state width="1323" height="162" key="GridCell.Tab.0.center" timestamp="1582653463365">
+    <state width="1323" height="395" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583340591494" />
+    <state width="1323" height="395" key="GridCell.Tab.0.center" timestamp="1583340591494">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="162" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582653463365" />
-    <state width="1323" height="162" key="GridCell.Tab.0.left" timestamp="1582653463365">
+    <state width="1323" height="395" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583340591494" />
+    <state width="1323" height="395" key="GridCell.Tab.0.left" timestamp="1583340591494">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="162" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582653463365" />
-    <state width="1323" height="162" key="GridCell.Tab.0.right" timestamp="1582653463365">
+    <state width="1323" height="395" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583340591494" />
+    <state width="1323" height="395" key="GridCell.Tab.0.right" timestamp="1583340591494">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="162" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582653463365" />
-    <state width="1323" height="392" key="GridCell.Tab.1.bottom" timestamp="1582651037744">
+    <state width="1323" height="395" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583340591494" />
+    <state width="1323" height="104" key="GridCell.Tab.1.bottom" timestamp="1583339963267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="392" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582651037744" />
-    <state width="1323" height="392" key="GridCell.Tab.1.center" timestamp="1582651037743">
+    <state width="1323" height="104" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583339963267" />
+    <state width="1323" height="104" key="GridCell.Tab.1.center" timestamp="1583339963267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="392" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1582651037743" />
-    <state width="1323" height="392" key="GridCell.Tab.1.left" timestamp="1582651037743">
+    <state width="1323" height="104" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1583339963267" />
+    <state width="1323" height="104" key="GridCell.Tab.1.left" timestamp="1583339963267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="392" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1582651037743" />
-    <state width="1323" height="392" key="GridCell.Tab.1.right" timestamp="1582651037743">
+    <state width="1323" height="104" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1583339963267" />
+    <state width="1323" height="104" key="GridCell.Tab.1.right" timestamp="1583339963267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="392" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1582651037743" />
+    <state width="1323" height="104" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1583339963267" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1582144040633">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -265,14 +276,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="438" y="208" key="cloudConfig.SelfSettingsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582144018280" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1582640470833">
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1583319027373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582640470833" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1582144016622">
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583319027373" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1583324146812">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1582144016622" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1583324146812" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -288,6 +299,6 @@
     <SUITE FILE_PATH="coverage/NewspectorNewsFetcher$HelloWorld.coverage" NAME="HelloWorld Coverage Results" MODIFIED="1582137698323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NewspectorTwitterIntegrator$ServiceController.coverage" NAME="ServiceController Coverage Results" MODIFIED="1582485221801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Controllers" />
     <SUITE FILE_PATH="coverage/NewspectorNewsFetcher$Main.coverage" NAME="Main Coverage Results" MODIFIED="1582151385281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NewspectorTwitterIntegrator$Main.coverage" NAME="Main Coverage Results" MODIFIED="1582652011242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NewspectorTwitterIntegrator$Main.coverage" NAME="Main Coverage Results" MODIFIED="1583340591478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

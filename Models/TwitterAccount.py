@@ -3,7 +3,7 @@ class TwitterAccount(object):
 
     # instance attributes
     def __init__(self, username, name, followers_count, following_count, likes_count, tweets_count, website,
-                 profile_photo, birthday, bio, tweet_list=list):
+                 profile_photo, birthday, bio, tweet_list):
         self.username = username
         self.name = name
         self.followers_count = followers_count
@@ -24,3 +24,7 @@ class TwitterAccount(object):
 
     def get_tweets(self):
         return self.tweet_list
+
+    def filter_tweets(self, regex):
+        for tweet in self.get_tweets():
+            tweet.filter(regex)

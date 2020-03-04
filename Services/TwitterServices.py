@@ -34,7 +34,6 @@ class TwitterServices:
         with open(resource, 'w') as outfile:
             json.dump(user_tweet_map, outfile)
 
-
     def load_map_from_resources(self):
         if os.stat(self.user_tweet_map_resource).st_size == 0:
             return None

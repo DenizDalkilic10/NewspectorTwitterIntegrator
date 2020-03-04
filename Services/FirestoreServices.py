@@ -36,7 +36,8 @@ class FireStoreServices(object):
             'reply_count': tweet.reply_count,
             'retweet_count': tweet.retweet_count,
             'likes': tweet.likes,
-            # 'entries': tweet.entries
-            # 'source-docId' : tweet.sourceID
+            'urls': tweet.urls,
+            'photos': tweet.photos,
+            'videos': tweet.videos
         }
         self.db.collection('tweets').document(tweet.tweet_id).set(tweet_data)
