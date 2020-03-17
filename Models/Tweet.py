@@ -20,5 +20,7 @@ class Tweet(object):
         self.videos = videos
 
     def filter(self, regex):
-        self.text = re.sub(regex, "", self.text, flags=re.IGNORECASE)
-        self.text = re.sub(r'^https?:\/\/.*[\r\n]*', '', self.text, flags=re.MULTILINE)
+        self.text = re.sub(regex, "",  self.text, flags=re.IGNORECASE)
+        self.text = re.sub(r"http\S+", "",  self.text)
+        self.text = re.sub(r"pic.twitter.com\S+", "",  self.text)
+        self.text = re.sub(r"#\S+", "",  self.text)

@@ -2,6 +2,8 @@ import ServerApplication
 import time
 import re
 
+# We can move these resource paths to a config file
+
 accounts_resource = "Resources/AccountNames.json"
 user_tweet_map_resource = "Resources/UserTweetIDMap.json"
 firestore_credentials_resource = "Resources/service-account-file.json"

@@ -3,6 +3,7 @@
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import firestore
+from google.cloud.firestore_v1 import DocumentReference
 
 
 class FireStoreServices(object):
@@ -29,6 +30,7 @@ class FireStoreServices(object):
     def add_tweet(self, tweet):
         tweet_data = {
             'username': tweet.username,
+            'userRef': self.db.collection("accounts").document(tweet.username),
             'tweet_id': tweet.tweet_id,
             'is_retweet': tweet.is_retweet,
             'time': tweet.time,

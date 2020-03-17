@@ -35,9 +35,9 @@ class ServerApplication(object):
                 for tweet in tweets:
                     t = Tweet.Tweet(i, tweet["tweetId"], tweet["isRetweet"], tweet["time"],
                                     tweet["text"], tweet["replies"], tweet["retweets"], tweet["likes"],
-                                    str(tweet["entries"]["urls"]),
-                                    str(tweet["entries"]["photos"]),
-                                    str(tweet["entries"]["videos"]))
+                                    tweet["entries"]["urls"],
+                                    tweet["entries"]["photos"],
+                                    tweet["entries"]["videos"])
                     self.model_controller.add_tweet_to_account(t, i)
                 self.twitter_service.update_map(i, int(tweets[0]["tweetId"]))
             print("Tweets fetched from " + i)
